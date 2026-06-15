@@ -1,23 +1,23 @@
 ```aura width=860 height=2251
 <div style={{ position:'relative', display:'flex', flexDirection:'column', width:'100%', height:'100%', backgroundColor:'#0E0F14', borderRadius:22, overflow:'hidden', fontFamily:'Inter, sans-serif', border:'1px solid #20242E' }}>
   <style>{`
-    @keyframes drift1 { 0%,100%{ transform:translate(0px,0px); opacity:0.55 } 50%{ transform:translate(60px,42px); opacity:0.9 } }
-    @keyframes drift2 { 0%,100%{ transform:translate(0px,0px); opacity:0.5 } 50%{ transform:translate(-70px,52px); opacity:0.82 } }
-    @keyframes drift3 { 0%,100%{ transform:translate(0px,0px); opacity:0.45 } 50%{ transform:translate(55px,-50px); opacity:0.78 } }
+    @keyframes sweepA { 0%,100%{ transform:translate(-150px,10px); opacity:0.6 } 50%{ transform:translate(150px,36px); opacity:1 } }
+    @keyframes sweepB { 0%,100%{ transform:translate(160px,14px); opacity:0.55 } 50%{ transform:translate(-160px,44px); opacity:0.95 } }
+    @keyframes sweepC { 0%,100%{ transform:translate(-130px,-12px); opacity:0.5 } 50%{ transform:translate(140px,-48px); opacity:0.9 } }
     @keyframes caret { 0%,49%{ opacity:1 } 50%,100%{ opacity:0 } }
-    #g1 { animation: drift1 15s ease-in-out infinite; }
-    #g2 { animation: drift2 19s ease-in-out infinite; }
-    #g3 { animation: drift3 17s ease-in-out infinite; }
-    #g4 { animation: drift1 21s ease-in-out infinite; }
-    #g5 { animation: drift2 23s ease-in-out infinite; }
-    #g6 { animation: drift3 18s ease-in-out infinite; }
+    #g1 { animation: sweepA 11s ease-in-out infinite; }
+    #g2 { animation: sweepB 13s ease-in-out infinite; }
+    #g3 { animation: sweepC 12s ease-in-out infinite; }
+    #g4 { animation: sweepA 15s ease-in-out infinite; }
+    #g5 { animation: sweepB 10s ease-in-out infinite; }
+    #g6 { animation: sweepC 14s ease-in-out infinite; }
     #hcaret { animation: caret 1.1s step-end infinite; }
   `}</style>
   <svg width="860" height="2251" style={{ position:'absolute', top:0, left:0 }}>
     <defs>
-      <radialGradient id="ember" cx="50%" cy="50%" r="50%"><stop offset="0%" stopColor="rgba(255,122,69,0.22)"/><stop offset="100%" stopColor="rgba(255,122,69,0)"/></radialGradient>
-      <radialGradient id="mint" cx="50%" cy="50%" r="50%"><stop offset="0%" stopColor="rgba(94,234,212,0.18)"/><stop offset="100%" stopColor="rgba(94,234,212,0)"/></radialGradient>
-      <radialGradient id="violet" cx="50%" cy="50%" r="50%"><stop offset="0%" stopColor="rgba(124,92,255,0.18)"/><stop offset="100%" stopColor="rgba(124,92,255,0)"/></radialGradient>
+      <radialGradient id="ember" cx="50%" cy="50%" r="50%"><stop offset="0%" stopColor="rgba(255,122,69,0.42)"/><stop offset="100%" stopColor="rgba(255,122,69,0)"/></radialGradient>
+      <radialGradient id="mint" cx="50%" cy="50%" r="50%"><stop offset="0%" stopColor="rgba(94,234,212,0.36)"/><stop offset="100%" stopColor="rgba(94,234,212,0)"/></radialGradient>
+      <radialGradient id="violet" cx="50%" cy="50%" r="50%"><stop offset="0%" stopColor="rgba(124,92,255,0.36)"/><stop offset="100%" stopColor="rgba(124,92,255,0)"/></radialGradient>
     </defs>
     <g id="g1"><ellipse cx="720" cy="130" rx="320" ry="250" fill="url(#ember)"/></g>
     <g id="g2"><ellipse cx="120" cy="560" rx="300" ry="240" fill="url(#mint)"/></g>
@@ -29,16 +29,10 @@
 
   <div style={{ position:'relative', display:'flex', flexDirection:'column', padding:'30px 36px' }}>
 
-    <div style={{ display:'flex', flexDirection:'row', alignItems:'center', justifyContent:'space-between' }}>
+    <div style={{ display:'flex', flexDirection:'row', alignItems:'center' }}>
       <div style={{ display:'flex', flexDirection:'row', alignItems:'center' }}>
         <div style={{ display:'flex', width:26, height:26, borderRadius:7, backgroundColor:'#FF7A45', alignItems:'center', justifyContent:'center', marginRight:11 }}><span style={{ fontSize:14, fontWeight:800, color:'#0E0F14' }}>A</span></div>
         <span style={{ fontSize:13, color:'#ECEEF3', fontFamily:'monospace', letterSpacing:0.5 }}>akash.deep</span>
-      </div>
-      <div style={{ display:'flex', flexDirection:'row', alignItems:'center', gap:18 }}>
-        <span style={{ fontSize:12, color:'#98A2B3', fontFamily:'monospace' }}>work</span>
-        <span style={{ fontSize:12, color:'#98A2B3', fontFamily:'monospace' }}>experience</span>
-        <span style={{ fontSize:12, color:'#98A2B3', fontFamily:'monospace' }}>achievements</span>
-        <span style={{ fontSize:12, color:'#FF7A45', fontFamily:'monospace' }}>contact</span>
       </div>
     </div>
 
@@ -201,7 +195,6 @@
       <span style={{ fontSize:12, color:'#FF7A45', fontFamily:'monospace', letterSpacing:2, textTransform:'uppercase', marginBottom:12 }}>// contact</span>
       <span style={{ fontSize:34, fontWeight:800, color:'#ECEEF3', letterSpacing:-1 }}>Let's build something.</span>
       <span style={{ fontSize:14, color:'#98A2B3', marginTop:12 }}>Open to roles, collaborations, and ambitious side-quests.</span>
-      <span style={{ fontSize:13, color:'#5EEAD4', fontFamily:'monospace', marginTop:14 }}>akashdeep.6374@gmail.com</span>
     </div>
 
   </div>
