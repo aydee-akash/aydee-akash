@@ -373,23 +373,29 @@
 </div>
 ```
 
-```aura width=168 height=48 link="https://github.com/aydee-akash" inline align=center
-<div style={{ display:'flex', flexDirection:'row', alignItems:'center', justifyContent:'center', width:'100%', height:'100%', backgroundColor:'#16181F', borderRadius:10, border:'1px solid #2A2F3B', fontFamily:'Inter, sans-serif' }}>
-  <div style={{ display:'flex', width:9, height:9, borderRadius:9, backgroundColor:'#ECEEF3', marginRight:10 }}></div>
-  <span style={{ fontSize:13, color:'#ECEEF3', fontWeight:600 }}>GitHub</span>
+```aura width=152 height=54 link="https://github.com/aydee-akash" inline align=center
+<div style={{ display:'flex', alignItems:'center', justifyContent:'center', width:'100%', height:'100%', fontFamily:'Inter, sans-serif' }}>
+  <div style={{ display:'flex', flexDirection:'row', alignItems:'center', justifyContent:'center', gap:9, width:124, height:46, backgroundColor:'#16181F', border:'1px solid #2A2F3B', borderRadius:12 }}>
+    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI0VDRUVGMyIgZD0iTTEyIC4yOTdjLTYuNjMgMC0xMiA1LjM3My0xMiAxMiAwIDUuMzAzIDMuNDM4IDkuOCA4LjIwNSAxMS4zODUuNi4xMTMuODItLjI1OC44Mi0uNTc3IDAtLjI4NS0uMDEtMS4wNC0uMDE1LTIuMDQtMy4zMzguNzI0LTQuMDQyLTEuNjEtNC4wNDItMS42MUM0LjQyMiAxOC4wNyAzLjYzMyAxNy43IDMuNjMzIDE3LjdjLTEuMDg3LS43NDQuMDg0LS43MjkuMDg0LS43MjkgMS4yMDUuMDg0IDEuODM4IDEuMjM2IDEuODM4IDEuMjM2IDEuMDcgMS44MzUgMi44MDkgMS4zMDUgMy40OTUuOTk4LjEwOC0uNzc2LjQxNy0xLjMwNS43Ni0xLjYwNS0yLjY2NS0uMzA1LTUuNDY3LTEuMzM0LTUuNDY3LTUuOTMxIDAtMS4zMTEuNDY5LTIuMzgxIDEuMjM2LTMuMjIxLS4xMjQtLjMwMy0uNTM1LTEuNTI0LjExNy0zLjE3NiAwIDAgMS4wMDgtLjMyMiAzLjMwMSAxLjIzQTExLjUwOSAxMS41MDkgMCAwIDEgMTIgNS44MDNjMS4wMi4wMDUgMi4wNDcuMTM4IDMuMDA2LjQwNCAyLjI5MS0xLjU1MiAzLjI5Ny0xLjIzIDMuMjk3LTEuMjMuNjUzIDEuNjUzLjI0MiAyLjg3NC4xMTggMy4xNzYuNzcuODQgMS4yMzUgMS45MTEgMS4yMzUgMy4yMjEgMCA0LjYwOS0yLjgwNyA1LjYyNC01LjQ3OSA1LjkyMS40My4zNzIuODIzIDEuMTAyLjgyMyAyLjIyMiAwIDEuNjA2LS4wMTQgMi44OTgtLjAxNCAzLjI5MyAwIC4zMjIuMjE2LjY5NC44MjUuNTc2QzIwLjU2NSAyMi4wOTIgMjQgMTcuNTkyIDI0IDEyLjI5N2MwLTYuNjI3LTUuMzczLTEyLTEyLTEyIi8+PC9zdmc+" width="18" height="18" style={{ width:18, height:18 }} />
+    <span style={{ fontSize:13.5, color:'#ECEEF3', fontWeight:600 }}>GitHub</span>
+  </div>
 </div>
 ```
 
-```aura width=180 height=48 link="https://linkedin.com/in/akash-deep-387121317" inline align=center
-<div style={{ display:'flex', flexDirection:'row', alignItems:'center', justifyContent:'center', width:'100%', height:'100%', backgroundColor:'#16181F', borderRadius:10, border:'1px solid #2A2F3B', fontFamily:'Inter, sans-serif' }}>
-  <div style={{ display:'flex', width:9, height:9, borderRadius:9, backgroundColor:'#4F8CFF', marginRight:10 }}></div>
-  <span style={{ fontSize:13, color:'#ECEEF3', fontWeight:600 }}>LinkedIn</span>
+```aura width=164 height=54 link="https://linkedin.com/in/akash-deep-387121317" inline align=center
+<div style={{ display:'flex', alignItems:'center', justifyContent:'center', width:'100%', height:'100%', fontFamily:'Inter, sans-serif' }}>
+  <div style={{ display:'flex', flexDirection:'row', alignItems:'center', justifyContent:'center', gap:9, width:136, height:46, backgroundColor:'#16181F', border:'1px solid #2A2F3B', borderRadius:12 }}>
+    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzRGOENGRiIgZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYTIuMDYyIDIuMDYyIDAgMCAxLTIuMDYzLTIuMDY1IDIuMDY0IDIuMDY0IDAgMSAxIDIuMDYzIDIuMDY1em0xLjc4MiAxMy4wMTlIMy41NTVWOWgzLjU2NHYxMS40NTJ6TTIyLjIyNSAwSDEuNzcxQy43OTIgMCAwIC43NzQgMCAxLjcyOXYyMC41NDJDMCAyMy4yMjcuNzkyIDI0IDEuNzcxIDI0aDIwLjQ1MUMyMy4yIDI0IDI0IDIzLjIyNyAyNCAyMi4yNzFWMS43MjlDMjQgLjc3NCAyMy4yIDAgMjIuMjIyIDBoLjAwM3oiLz48L3N2Zz4=" width="18" height="18" style={{ width:18, height:18 }} />
+    <span style={{ fontSize:13.5, color:'#ECEEF3', fontWeight:600 }}>LinkedIn</span>
+  </div>
 </div>
 ```
 
-```aura width=150 height=48 link="mailto:akashdeep.6374@gmail.com" inline align=center
-<div style={{ display:'flex', flexDirection:'row', alignItems:'center', justifyContent:'center', width:'100%', height:'100%', backgroundColor:'#16181F', borderRadius:10, border:'1px solid #2A2F3B', fontFamily:'Inter, sans-serif' }}>
-  <div style={{ display:'flex', width:9, height:9, borderRadius:9, backgroundColor:'#FF7A45', marginRight:10 }}></div>
-  <span style={{ fontSize:13, color:'#ECEEF3', fontWeight:600 }}>Email</span>
+```aura width=142 height=54 link="mailto:akashdeep.6374@gmail.com" inline align=center
+<div style={{ display:'flex', alignItems:'center', justifyContent:'center', width:'100%', height:'100%', fontFamily:'Inter, sans-serif' }}>
+  <div style={{ display:'flex', flexDirection:'row', alignItems:'center', justifyContent:'center', gap:9, width:114, height:46, backgroundColor:'#16181F', border:'1px solid #2A2F3B', borderRadius:12 }}>
+    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI0ZGN0E0NSIgZD0iTTIwIDRINGMtMS4xIDAtMS45OS45LTEuOTkgMkwyIDE4YzAgMS4xLjkgMiAyIDJoMTZjMS4xIDAgMi0uOSAyLTJWNmMwLTEuMS0uOS0yLTItMnptMCA0bC04IDUtOC01VjZsOCA1IDgtNXYyeiIvPjwvc3ZnPg==" width="18" height="18" style={{ width:18, height:18 }} />
+    <span style={{ fontSize:13.5, color:'#ECEEF3', fontWeight:600 }}>Email</span>
+  </div>
 </div>
 ```
